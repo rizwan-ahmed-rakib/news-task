@@ -32,5 +32,5 @@ class Product(models.Model):
         return self.name
 
     class Meta:
-        ordering = ['-created',]
+        ordering = ['-created', ]
         # here -created mentions that it will show the latest product top
